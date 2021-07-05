@@ -1,7 +1,3 @@
-const positiveAdjectives1 = ['adaptable', 'affectionate', 'amiable', 'brave', 'considerate', 'courteous', 'empathetic', 'frank', 'good', 'impartial', 'inventive', 'persistent', 'practical', 'reliable', 'sensible', 'sincere', 'sympathetic', 'witty'];
-const positiveAdjectives2 = ['adventurous', 'ambitious', 'chatty', 'compassionate', 'courageous', 'diligent', 'exuberant', 'funny', 'generous', 'gregarious', 'intuitive', 'passionate', 'philosophical', 'rational', 'resourceful', 'smart', 'unassuming'];
-const verbs = ['admire', 'idolize', 'like', 'worship'];
-
 const randIndex = arrLength => {
     return Math.floor(Math.random() * arrLength);
 }
@@ -32,9 +28,9 @@ const introduction = () => {
     printMirror();
 }
 
-const dailyAffirmations = () => {
-    const adjective1 = positiveAdjectives1[randIndex(positiveAdjectives1.length)];
-    const adjective2 = positiveAdjectives2[randIndex(positiveAdjectives2.length)];
+const dailyAffirmations = (adjectives1, adjectives2, verbs) => {
+    const adjective1 = adjectives1[randIndex(adjectives1.length)];
+    const adjective2 = adjectives2[randIndex(adjectives2.length)];
     const verb = verbs[randIndex(verbs.length)];
 
     console.log("That's it. Now repeat after me.\n");
@@ -44,8 +40,12 @@ const dailyAffirmations = () => {
 }
 
 const main = () => {
+    const positiveAdjectives1 = ['adaptable', 'affectionate', 'amiable', 'brave', 'considerate', 'courteous', 'empathetic', 'frank', 'good', 'impartial', 'inventive', 'persistent', 'practical', 'reliable', 'sensible', 'sincere', 'sympathetic', 'witty'];
+    const positiveAdjectives2 = ['adventurous', 'ambitious', 'chatty', 'compassionate', 'courageous', 'diligent', 'exuberant', 'funny', 'generous', 'gregarious', 'intuitive', 'passionate', 'philosophical', 'rational', 'resourceful', 'smart', 'unassuming'];
+    const verbs = ['admire', 'adore', 'idolize', 'like', 'love', 'revere', 'worship'];
+
     introduction();
-    dailyAffirmations();
+    dailyAffirmations(positiveAdjectives1, positiveAdjectives2, verbs);
 }
 
 main();
