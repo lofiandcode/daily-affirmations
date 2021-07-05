@@ -6,19 +6,46 @@ const randIndex = arrLength => {
     return Math.floor(Math.random() * arrLength);
 }
 
-const Montra = () => {
+const printMirror = () => {
+    const mirror = [
+        '',
+        '      ------------',
+        '    //            \\\\ ',
+        '   ||              ||',
+        '   ||              ||',
+        '   ||              ||',
+        '   ||              ||',
+        '   ||              ||',
+        '   ||              ||',
+        '    \\\\            //',
+        '      ------------',
+        ''
+        ];
+    mirror.forEach(element => {
+        console.log(element);
+    })
+}
+const introduction = () => {
+    console.log("\nHi, I'm Stuart Smalley and I'm going to be leading you in some Daily Affirmations.\n");
+    console.log("Now look in the mirror.");
+    console.log("Come on, don't look at me. Only you can help you.");
+    printMirror();
+}
+
+const dailyAffirmations = () => {
     const adjective1 = positiveAdjectives1[randIndex(positiveAdjectives1.length)];
     const adjective2 = positiveAdjectives2[randIndex(positiveAdjectives2.length)];
     const verb = verbs[randIndex(verbs.length)];
 
-    console.log(`I'm ${adjective1} enough,`);
-    console.log(`I'm ${adjective2} enough,`);
-    console.log(`And gosh darn it, people ${verb} me!`);
+    console.log("That's it. Now repeat after me.\n");
+    console.log(`\"I'm ${adjective1} enough,`);
+    console.log(` I'm ${adjective2} enough,`);
+    console.log(` And doggone it, people ${verb} me!\"\n`);
 }
 
 const main = () => {
-    
-    Montra();
+    introduction();
+    dailyAffirmations();
 }
 
-main()
+main();
