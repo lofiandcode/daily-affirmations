@@ -24,11 +24,11 @@ To run this project, follow these steps:
 - Navigate into that directory in the terminal
 - Clone my repository into that directory by typing:
 ```
-$ git clone https://github.com/lofiandcode/daily-affirmations.git
+git clone https://github.com/lofiandcode/daily-affirmations.git
 ```
 - Install Node.js if you don't already have it installed on your machine
 - Finally, while in the daily-affirmations directory, type in the terminal
 ```
-$ node App.js
+node App.js
 ``` 
 - Now hit enter.
