@@ -1,22 +1,24 @@
 # Daily Affirmations
 ### JavaScript Portfolio Project for Codecademy
 
-Simple daily affirmations generator in the style of the SNL skit "Daily Affirmations with Stuart Smalley"
+Simple daily affirmations generator
 
 ## Table of Contents
 - [General Info](#general-info)
 - [Technologies](#technologies)
 - [Setup](#setup)
+- [Status](#status)
+- [Inspiration](#inspiration)
 
 ## Genaral Info
 This project is a portfolio project that I built for the Codecademy Full-Stack Engineer Career Path. 
 
-The project prints to the terminal a randomly generated daily affirmation using words from 4 different arrays. The format of the daily affirmation is based on the one used by the Stuart Smalley character in the SNL skit "Daily Affirmations with Stuart Smalley".
+The project prints to the terminal a ASCII art mirror and a randomly generated daily affirmation using words and phrases from 4 different arrays. 
 
 ## Technologies
 Project is created with:
-- JavaScript: ES6
-- Node.js: v13.10.1
+- JavaScript: ECMAScript 2020
+- Node.js: v14.17.3
 
 ## Set Up
 Before we get into the set up, install Node.js if you don't already have it installed on your machine
@@ -33,3 +35,11 @@ git clone https://github.com/lofiandcode/daily-affirmations.git
 node App.js
 ``` 
 - Now hit enter.
+
+## Status
+Project Status: Complete
+
+## Inspiration
+The format of the daily affirmation is based on the one used by the Stuart Smalley character in the SNL skit "Daily Affirmations with Stuart Smalley".
+
+The project was also inspired by required elements of the portfolio project Mixed Messages that is part of Codecademy's Full-Stack Engineer Career Path.
