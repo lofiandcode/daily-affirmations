@@ -18,7 +18,7 @@ Project is created with:
 - JavaScript: ES6
 - Node.js: v13.10.1
 
-## Setup
+## Set Up
 Before we get into the set up, install Node.js if you don't already have it installed on your machine
 
 To run this project, follow these steps:
