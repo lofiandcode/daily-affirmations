@@ -48,7 +48,7 @@ const dailyAffirmations = (adjectives1, adjectives2, verbs) => {
 
 //Creates arrays of proddings, adjectives, and verbs
 //Runs the program by calling introduction(proddings) and dailyAffirmations(positiveAdjectives1, positiveAdjectives2, verbs)
-const main = () => {
+const app = () => {
     const proddings = ["don't look at me", 'believe in the process', "don't fight it", 'trust me'];
     const positiveAdjectives1 = ['adaptable', 'affectionate', 'amiable', 'brave', 'considerate', 'courteous', 'empathetic', 'frank', 'good', 'impartial', 'inventive', 'persistent', 'practical', 'reliable', 'sensible', 'sincere', 'sympathetic', 'witty'];
     const positiveAdjectives2 = ['adventurous', 'ambitious', 'chatty', 'compassionate', 'courageous', 'diligent', 'exuberant', 'funny', 'generous', 'gregarious', 'intuitive', 'passionate', 'philosophical', 'rational', 'resourceful', 'smart', 'unassuming'];
@@ -58,4 +58,4 @@ const main = () => {
     dailyAffirmations(positiveAdjectives1, positiveAdjectives2, verbs);
 }
 
-main();
+app();
