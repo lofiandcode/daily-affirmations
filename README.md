@@ -21,7 +21,7 @@ Project is created with:
 - Node.js: v14.17.3
 
 ## Set Up
-Before we get into the set up, install Node.js if you don't already have it installed on your machine
+First, install Node.js if you don't already have it installed on your machine
 
 To run this project, follow these steps:
 - In the terminal, navigate into the directory in which you would like to clone the project
